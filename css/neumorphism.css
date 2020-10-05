@@ -6163,6 +6163,7 @@ input[type="button"].btn-block {
     padding-left: 0;
     margin-bottom: 0;
     list-style: none;
+    width: 100%;
 }
 
 .navbar-nav .nav-link {
@@ -32279,3 +32280,29 @@ article a:hover {
 }
 
 /*# sourceMappingURL=neumorphism.css.map */
+html, body {
+    height:100%;
+    width:100%;
+}
+
+header {
+    display: block;
+    height:100%;
+    width:100%;
+}
+
+.bg-img { background-image: url("../assets/img/bg-img.jpg"); }
+
+/* scrolldown link */
+header .scrolldown {
+   position: absolute;
+   bottom: 3%;
+   left: 50%;
+   transform: translateX(-50%);
+}
+
+.home {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
