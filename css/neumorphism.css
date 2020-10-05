@@ -32285,7 +32285,7 @@ html, body {
     width:100%;
 }
 
-header {
+header, #about {
     display: block;
     height:100%;
     width:100%;
@@ -32301,8 +32301,12 @@ header .scrolldown {
    transform: translateX(-50%);
 }
 
-.home {
+.home, .about {
     position: relative;
     top: 50%;
     transform: translateY(-50%);
+}
+
+.flex-even {
+  flex: 1;
 }
